@@ -13,7 +13,7 @@ class Nav extends Component {
                         aria-expanded="false" aria-label="Toggle navigation">
                 </button>
 
-                <div className="collapse navbar-collapse mx-auto justify-content-center">
+                <div className="collapse navbar-collapse mx-auto">
                     <Link to='/' className="navbar-brand">SportsLeague</Link>
                     <ul className="navbar-nav">
                         <li className="nav-item">
