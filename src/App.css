@@ -7,13 +7,21 @@
   pointer-events: none;
 }
 
+main { 
+  padding-top: 120px; 
+  padding-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-height: calc(100vh - 80px);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: whitesmoke;
   min-height: 100vh;
   display: flex;
@@ -22,7 +30,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
-}
+} */
 
 .App-link {
   color: blue;

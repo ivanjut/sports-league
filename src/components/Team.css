@@ -1,0 +1,17 @@
+.team-container {
+    text-align: left;
+}
+
+.card-img-top {
+    width: 18.9vw;
+    height: 18.9vw;
+}
+
+.card {
+    width: 19vw;
+}
+
+.card-deck {
+    display: inline-flex;
+    gap: 1vw
+}
